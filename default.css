@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*Created by: Andrea Czar
+ Created on: Oct 26, 2015 */
+/*************************
+Container division contains the individual box
+division on the page.
+**************************/
+
+body {
+  overflow-y: scroll;
+}
+
+#container {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+}
+header h1 {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 36px;
+  color: yellow;
+  height: 2em;
+  width: 100%;
+  margin-top: 0.2em;
+  position: absolute;
+}
+
+header {
+  background: red;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#ff6666',GradientType=0 ); /* IE <= 8 */
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ff0000), color-stop(1, #ff6666)); /* Safari & Chrome */
+  background: -moz-linear-gradient(top, #ff6666, #ff0000); /* Firefox */
+  background: -o-linear-gradient(top, #ff0000 0%, #ff6666 100%);
+  border: solid 1px black;
+  height: 60px;
+  width: 100%;
+  position: relative;
+
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+nav {
+  float: left;
+  width: 130px;
+  padding-right: 10px;
+}
+nav li {
+  display: block;
+  line-height: 150%;
+  width: auto;
+}
+a.pagelink {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+}
+a.pagelink:link {
+  color: blue;
+}
+a.pagelink:visited {
+  color: lime
+}
+a.pagelink:hover {
+  color: orange;
+}
+a.pagelink:active {
+  color: fuchsia;
+}
+#middlebox .mainpage  {
+  top: 10px;
+  margin: 0 100px 0 140px;
+  background-color: ivory;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: red;
+}
+#rightbox {
+  float: right;
+  padding: 0 5px 0 5px;
+  width: 70px;
+  overflow: hidden;
+}
+
+footer {
+  background: #f33;
+  border: solid 1px black;
+  background: url(images/pepperoni_pizza.png) 0px -230px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: cyan;
+  clear: both;
+  padding: 0.5em;
+}
+.thumb {
+  vertical-align: middle;
+}
+
+.details {
+  font: bold 120% Consolas;
+  color: blue;
+}
+
+dd.oneline ul li {
+  display: inline;
+  padding: 0 5px 0 5px;
+}
