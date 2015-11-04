@@ -73,7 +73,7 @@ script.
 
   	     echo "<p><strong>You didn't enter a value for first name." .
               "<br />" .
-              "Please <a href=\"order.html\">go back</a> and re-enter a value
+              "Please <a href=\"../order.html\">go back</a> and re-enter a value
 for first name." .
               "</strong></p></body></html>";
          exit;
@@ -143,7 +143,7 @@ file can
       {
          echo "<p><strong>Your order cannot be processed at this time. " .
            "Please try again later.</strong> <br />" .
-		   "<a href=\"order.html\">Return to the form</a>" .
+		   "<a href=\"../order.html\">Return to the form</a>" .
 		   "</p></body></html>";
          exit;
       }
